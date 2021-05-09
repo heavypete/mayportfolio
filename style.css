@@ -1,0 +1,147 @@
+body {
+  animation: pulse 30s infinite;
+  padding: 2ex;
+  margin: 2ex;
+  border-style: ridge;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+
+div > img {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 50%;
+  /* animation: pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate; */
+}
+
+div > a {
+  color: beige;
+}
+/* .img-container {
+ margin-left: auto;
+ margin-right: auto;
+  width: 520ex;
+  height: auto;
+   animation:   animation: pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate;
+} */
+.aboutme {
+  padding-left: 30ex;
+  padding-right: 30ex;
+}
+.dexter {
+  border-radius: 50%;
+  max-width: 120ex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  font-size: large;
+}
+@keyframes pulse {
+  0% {
+    background-color: rgb(91, 72, 177);
+    color: beige;
+  }
+  5% {
+    color: black;
+  }
+  10% {
+    color: beige;
+  }
+  15% {
+    color: black;
+  }
+  75% {
+    background-color: rgba(0, 212, 255, 1);
+  }
+
+  90% {
+    background-color: rgba(44, 23, 139, 1);
+    color: hotpink;
+  }
+  100% {
+    background-color: rgb(91, 72, 177);
+    color: beige;
+  }
+}
+
+/* @keyframes dexter {
+} */
+
+@media only screen and (min-width: 425px) {
+  body {
+    border: 10px solid beige;
+
+  }
+
+   }
+  .aboutme {
+    padding-left: 10ex;
+    padding-right: 10ex;
+  }
+  h3 {
+    text-align: center;
+    padding-left: 12ex;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    border: 10px thick green;
+  }
+  .aboutme {
+    padding-left: 10ex;
+    padding-right: 10ex;
+  }
+  h3 {
+    text-align: center;
+    padding-left: 12ex;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    border: 5px solid hotpink;
+  }
+  .aboutme {
+    padding-left: 30ex;
+    padding-right: 30ex;
+  }
+  h3 {
+    text-align: left;
+    padding-left: 12ex;
+  }
+
+  /* div {
+    padding-left: 30ex;
+  } */
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    border: 10px solid beige;
+  }
+  .aboutme {
+    padding-left: 30ex;
+    padding-right: 30ex;
+  }
+  h3 {
+    text-align: left;
+    padding-left: 8ex;
+  }
+  li {
+    padding-left: 8ex;
+  }
+}
