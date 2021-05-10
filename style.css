@@ -88,9 +88,11 @@ div > a {
 /* @keyframes dexter {
 } */
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 600px) {
   body {
     border: 10px solid beige;
+    padding-left: 10ex;
+    padding-right: 10ex;
 
   }
 
