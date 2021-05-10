@@ -3,6 +3,7 @@ body {
   padding: 2ex;
   margin: 2ex;
   border-style: ridge;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   text-align: center;
