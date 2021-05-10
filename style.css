@@ -23,6 +23,10 @@ div > img {
     nudge 5s linear infinite alternate; */
 }
 
+audio {
+  opacity: 0;
+}
+
 div > a {
   color: beige;
 }
@@ -47,6 +51,11 @@ div > a {
 
 .navbar {
   font-size: large;
+  color: beige;
+}
+
+.navitem {
+  color: beige;
 }
 @keyframes pulse {
   0% {
