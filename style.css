@@ -88,18 +88,15 @@ div > a {
 /* @keyframes dexter {
 } */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 767px) {
   body {
     border: 10px solid beige;
     padding-left: 10ex;
     padding-right: 10ex;
-
   }
-
-   }
   .aboutme {
-    padding-left: 10ex;
-    padding-right: 10ex;
+    padding-left: 0;
+    padding-right: 0;
   }
   h3 {
     text-align: center;
@@ -119,7 +116,6 @@ div > a {
     text-align: center;
     padding-left: 12ex;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
