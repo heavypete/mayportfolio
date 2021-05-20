@@ -1,3 +1,7 @@
+audio {
+  opacity: 0;
+}
+
 body {
   animation: pulse 30s infinite;
   padding: 2ex;
@@ -8,9 +12,32 @@ body {
 h1 {
   text-align: center;
 }
-h2 {
+
+header {
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+}
+header h2 {
   text-align: center;
 }
+li a {
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul li {
+  float: left;
+  border: 5px solid rgb(201, 99, 22);
+  background-color: rgb(73, 182, 215);
+  padding: 10px;
+}
+
+/* menu {
+  width: 100%;
+  font-weight: 800;
+} */
+
 footer {
   text-align: center;
 }
@@ -24,12 +51,17 @@ div > img {
     nudge 5s linear infinite alternate; */
 }
 
-audio {
-  opacity: 0;
-}
-
 div > a {
   color: beige;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  float: left;
 }
 /* .img-container {
  margin-left: auto;
@@ -42,6 +74,14 @@ div > a {
 .aboutme {
   padding-left: 30ex;
   padding-right: 30ex;
+}
+
+.contact {
+  float: left;
+}
+
+.contain-content {
+  border-color: red solid;
 }
 .dexter {
   border-radius: 50%;
@@ -58,6 +98,8 @@ div > a {
 .navitem {
   color: beige;
 }
+
+/** Animation */
 @keyframes pulse {
   0% {
     background-color: rgb(91, 72, 177);
@@ -86,8 +128,7 @@ div > a {
   }
 }
 
-/* @keyframes dexter {
-} */
+/** Responsivity */
 
 @media only screen and (max-width: 767px) {
   body {
